@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "learn-git"
+version = "0.1.0"
+description = ""
+authors = ["nobu513 <63525140+nobu513@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "learn_git"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
